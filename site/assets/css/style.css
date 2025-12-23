@@ -7,13 +7,16 @@
 body
 {
     margin: 0;
+    background-color: #F5F5F5;
 }
 
 #CV
 {
-    max-width: 800px;
-    margin: 0pc;
+    max-width: 1160px;
+    margin: 0px;
     font-family: "lato", sans-serif;
+    background-color: white;
+    justify-self: center;
 }
 .header
 {
@@ -41,6 +44,7 @@ body
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: white solid 6px;
     object-fit: cover;
 }
 
@@ -54,11 +58,23 @@ body
 .content
 {
     display: flex;
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
 }
 
 aside
 {
     flex: 1;
+    background-color: #E3E3E3;
+    text-align: justify;
+    margin: 0;
+    padding: 50px;
     
+}
+    
+main
+{
+    flex: 2;
+    text-align: justify;
+    padding: 50px;
 }
