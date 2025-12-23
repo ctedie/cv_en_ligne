@@ -4,10 +4,16 @@
     src: url(../fonts/Lato-Bold.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "raleway", sans-serif;
+    src: url(../fonts/Raleway-Regular.ttf) format("truetype");
+}
+
 h2
 {
     color: #17abb3;
 }
+
 
 #header__infos__title
 {
@@ -28,6 +34,11 @@ body
     background-color: white;
     justify-self: center;
 }
+h1, h2, h3, h4
+{
+    font-family: "raleway", sans-serif;
+}
+
 .header
 {
     background-color: #17abb3;
