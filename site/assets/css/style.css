@@ -1,12 +1,44 @@
 @font-face
 {
-    font-family: "lato", sans-serif;
+    font-family: "lato";
+    src: url(../fonts/Lato-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lato";
     src: url(../fonts/Lato-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/Lato-Italic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic;
 }
 
 @font-face {
     font-family: "raleway", sans-serif;
     src: url(../fonts/Raleway-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "raleway", sans-serif;
+    src: url(../fonts/Raleway-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "raleway", sans-serif;
+    src: url(../fonts/Raleway-Italic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic;
 }
 
 h2
@@ -30,7 +62,7 @@ body
 {
     max-width: 1160px;
     margin: 0px;
-    font-family: "lato", sans-serif;
+    font-family: "lato", sans-serif;;
     background-color: white;
     justify-self: center;
 }
