@@ -1,0 +1,64 @@
+@font-face
+{
+    font-family: "lato", sans-serif;
+    src: url(../fonts/Lato-Bold.ttf) format("truetype");
+}
+
+body
+{
+    margin: 0;
+}
+
+#CV
+{
+    max-width: 800px;
+    margin: 0pc;
+    font-family: "lato", sans-serif;
+}
+.header
+{
+    background-color: #17abb3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+}
+
+.header__photo
+{
+    flex: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-self: center;
+    
+    /* TODO Border */
+    /* margin-right: 20px; */
+}
+
+.header__photo img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header__info
+{
+    flex: 2;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.content
+{
+    display: flex;
+    padding: 20px;
+}
+
+aside
+{
+    flex: 1;
+    
+}
