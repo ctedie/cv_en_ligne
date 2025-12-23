@@ -4,6 +4,16 @@
     src: url(../fonts/Lato-Bold.ttf) format("truetype");
 }
 
+h2
+{
+    color: #17abb3;
+}
+
+#header__infos__title
+{
+    color: white;
+}
+
 body
 {
     margin: 0;
@@ -77,4 +87,15 @@ main
     flex: 2;
     text-align: justify;
     padding: 50px;
+}
+
+.profil__description
+{
+    margin: 0;
+    text-indent: 2cap;
+}
+
+.has-hover:hover
+{
+    background-color: #E3E3E3;
 }
