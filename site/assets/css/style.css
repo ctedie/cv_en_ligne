@@ -142,3 +142,37 @@ main
 {
     background-color: #E3E3E3;
 }
+
+.competences__list-competences, .langues__list-langues
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.competences__list-competences li, .langues__list-langues li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill
+{
+    font-weight: bold;
+}
+
+.stars
+{
+    color: #17abb3;
+    font-size: 1.3rem;
+}
+
+.langues__list-langues li
+{
+    margin-bottom: 10px;
+}
+
+.langues__level
+{
+    font-size: 16px;
+}
