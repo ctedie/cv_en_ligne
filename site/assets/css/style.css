@@ -1,0 +1,248 @@
+@font-face
+{
+    font-family: "lato";
+    src: url(../fonts/Lato-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/Lato-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/Lato-Italic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "raleway", sans-serif;
+    src: url(../fonts/Raleway-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "raleway", sans-serif;
+    src: url(../fonts/Raleway-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "raleway", sans-serif;
+    src: url(../fonts/Raleway-Italic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+h2
+{
+    color: #17abb3;
+    margin-bottom: 10px;
+}
+
+
+#header__infos__title
+{
+    color: white;
+}
+
+body
+{
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+#CV
+{
+    max-width: 1160px;
+    margin: 0px;
+    font-family: "lato", sans-serif;;
+    background-color: white;
+    justify-self: center;
+}
+h1, h2, h3, h4
+{
+    font-family: "raleway", sans-serif;
+}
+
+hr
+{
+    margin-bottom: 20px;
+}
+.header
+{
+    background-color: #17abb3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+}
+
+.header__photo
+{
+    flex: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-self: center;
+
+}
+
+.header__photo img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: white solid 6px;
+    object-fit: cover;
+}
+
+
+
+.header__info
+{
+    flex: 2;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.content
+{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+aside
+{
+    flex: 1;
+    background-color: #E3E3E3;
+    text-align: justify;
+    margin: 0;
+    padding: 20px;
+    padding-right: 40px;
+    
+}
+    
+main
+{
+    flex: 2;
+    text-align: justify;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.profil__description
+{
+    margin: 0;
+    text-indent: 2cap;
+}
+
+.has-hover:hover
+{
+    background-color: #E3E3E3;
+}
+
+.competences, .langues, .qualites, .centres-d-interet
+{
+    margin-bottom: 50px;
+}
+
+.competences__list-competences, .langues__list-langues
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.competences__list-competences li, .langues__list-langues li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill
+{
+    font-weight: bold;
+}
+
+.stars
+{
+    color: #17abb3;
+    font-size: 1.3rem;
+}
+
+.langues__list-langues li
+{
+    margin-bottom: 10px;
+}
+
+.langues__level
+{
+    font-size: 16px;
+}
+
+.qualites__list-qualites
+{
+    padding-left: 20px;
+    list-style-type: square;
+    font-size: large;
+}
+
+.qualites__list-qualites li
+{
+    margin-bottom: 5px;
+}
+
+.qualites__list-qualites li::marker
+{
+    color: #17abb3;
+}
+
+.centres-d-interet__list-centres-d-interet
+{
+    padding-left: 20px;
+    list-style-type: square;
+    font-size: large;
+}
+.centres-d-interet__list-centres-d-interet li
+{
+    margin-bottom: 5px;
+}
+.centres-d-interet__list-centres-d-interet li::marker
+{
+    color: #17abb3;
+}
+
+.formation__diplome{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 0px;
+}
+.dates
+{
+    color: #17abb3;
+    font-style: italic;
+}
+
+.nomFormation
+{
+    font-weight: bold;
+    flex: 2;
+}
+.formation__diplome__info
+{
+    font-size: 0.9rem;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
