@@ -104,7 +104,12 @@ hr
     object-fit: cover;
 }
 
-
+.header__photo img:hover
+{
+    cursor: zoom-in;
+    filter: brightness(80%);
+    transition: all 0.3s ease-in-out;
+}
 
 .header__info
 {
