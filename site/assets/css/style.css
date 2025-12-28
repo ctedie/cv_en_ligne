@@ -87,9 +87,7 @@ h1, h2, h3, h4
     height: 150px;
     border-radius: 50%;
     align-self: center;
-    
-    /* TODO Border */
-    /* margin-right: 20px; */
+
 }
 
 .header__photo img
@@ -100,6 +98,8 @@ h1, h2, h3, h4
     border: white solid 6px;
     object-fit: cover;
 }
+
+
 
 .header__info
 {
@@ -121,7 +121,8 @@ aside
     background-color: #E3E3E3;
     text-align: justify;
     margin: 0;
-    padding: 50px;
+    padding: 20px;
+    padding-right: 40px;
     
 }
     
@@ -130,6 +131,7 @@ main
     flex: 2;
     text-align: justify;
     padding: 50px;
+    padding-top: 20px;
 }
 
 .profil__description
@@ -141,6 +143,11 @@ main
 .has-hover:hover
 {
     background-color: #E3E3E3;
+}
+
+.competences, .langues, .qualites, .centres-d-interet
+{
+    margin-bottom: 50px;
 }
 
 .competences__list-competences, .langues__list-langues
@@ -176,3 +183,65 @@ main
 {
     font-size: 16px;
 }
+
+.qualites__list-qualites
+{
+    padding-left: 20px;
+    list-style-type: square;
+    font-size: large;
+}
+
+.qualites__list-qualites li
+{
+    margin-bottom: 5px;
+}
+
+.qualites__list-qualites li::marker
+{
+    color: #17abb3;
+}
+
+.centres-d-interet__list-centres-d-interet
+{
+    padding-left: 20px;
+    list-style-type: square;
+    font-size: large;
+}
+.centres-d-interet__list-centres-d-interet li
+{
+    margin-bottom: 5px;
+}
+.centres-d-interet__list-centres-d-interet li::marker
+{
+    color: #17abb3;
+}
+
+.formation__diplome{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 0px;
+}
+.dates
+{
+    color: #17abb3;
+    font-style: italic;
+}
+
+.formation
+{
+    margin-bottom: 50px;
+}
+
+.nomFormation
+{
+    font-weight: bold;
+    flex: 2;
+}
+.formation__diplome__info
+{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
