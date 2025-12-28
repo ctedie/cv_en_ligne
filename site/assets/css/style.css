@@ -240,6 +240,7 @@ main
 }
 .formation__diplome__info
 {
+    font-size: 0.9rem;
     margin-top: 0px;
     margin-bottom: 15px;
     font-style: italic;
