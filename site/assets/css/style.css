@@ -51,6 +51,7 @@ h2
 #header__infos__title
 {
     color: white;
+    margin-top: 5px;
 }
 
 body
@@ -261,6 +262,10 @@ footer
     justify-content: center;
 }
 
+.header
+{
+    padding: 30px;
+}
 .contact
 {
     justify-self: center;
@@ -280,4 +285,11 @@ footer
 .contact img
 {
     margin-right: 5px;
+    height: 1rem;
+}
+
+#name
+{
+    font-size: 3rem;
+    margin-bottom: 5px;
 }
