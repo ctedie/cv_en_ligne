@@ -271,7 +271,7 @@ footer
 {
     justify-self: center;
     display: flex;
-    width: 240px;
+    width: 340px;
     flex-wrap: wrap;
     justify-content: space-between;
 
@@ -327,3 +327,4 @@ footer
 {
     opacity: 50%;
 }
+
