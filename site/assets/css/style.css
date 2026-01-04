@@ -288,9 +288,14 @@ footer
     margin-bottom: 15px;
 }
 
+.contact__info a
+{
+    text-decoration: none;
+    color: white;
+}
 .contact img
 {
-    margin-right: 5px;
+    margin-right: 8px;
     height: 1rem;
 }
 
