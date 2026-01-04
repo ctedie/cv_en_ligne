@@ -322,3 +322,8 @@ footer
     margin-bottom: 0px;
     margin-top: 5px;
 }
+
+.icone-reseaux:hover
+{
+    opacity: 50%;
+}
