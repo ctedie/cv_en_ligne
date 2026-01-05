@@ -1,0 +1,71 @@
+.competences, .langues, .qualites, .centres-d-interet
+{
+    margin-bottom: 50px;
+}
+
+.competences__list-competences, .langues__list-langues
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.competences__list-competences li, .langues__list-langues li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill
+{
+    font-weight: bold;
+}
+
+.stars
+{
+    color: #17abb3;
+    font-size: 1.3rem;
+}
+
+.langues__list-langues li
+{
+    margin-bottom: 10px;
+}
+
+.langues__level
+{
+    font-size: 16px;
+}
+
+.qualites__list-qualites
+{
+    padding-left: 20px;
+    list-style-type: square;
+    font-size: large;
+}
+
+.qualites__list-qualites li
+{
+    margin-bottom: 5px;
+}
+
+.qualites__list-qualites li::marker
+{
+    color: #17abb3;
+}
+
+.centres-d-interet__list-centres-d-interet
+{
+    padding-left: 20px;
+    list-style-type: square;
+    font-size: large;
+}
+.centres-d-interet__list-centres-d-interet li
+{
+    margin-bottom: 5px;
+}
+.centres-d-interet__list-centres-d-interet li::marker
+{
+    color: #17abb3;
+}
+

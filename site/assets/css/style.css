@@ -48,12 +48,6 @@ h2
 }
 
 
-#header__infos__title
-{
-    color: white;
-    margin-top: 5px;
-}
-
 body
 {
     margin: 0;
@@ -78,47 +72,6 @@ hr
     margin-bottom: 20px;
 }
 
-.header
-{
-    background-color: #17abb3;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    display: flex;
-}
-
-.header__photo
-{
-    flex: 1;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    align-self: center;
-
-}
-
-.header__photo img
-{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: white solid 6px;
-    object-fit: cover;
-}
-
-.header__photo img:hover
-{
-    cursor: zoom-in;
-    filter: brightness(80%);
-    transition: all 0.3s ease-in-out;
-}
-
-.header__info
-{
-    flex: 2;
-    margin-left: 20px;
-    text-align: center;
-}
 
 .content
 {
@@ -138,94 +91,9 @@ aside
     
 }
     
-main
-{
-    flex: 2;
-    text-align: justify;
-    padding: 50px;
-    padding-top: 20px;
-}
-
-.profil__description
-{
-    margin: 0;
-    text-indent: 2cap;
-}
-
 .has-hover:hover
 {
     background-color: #E3E3E3;
-}
-
-.competences, .langues, .qualites, .centres-d-interet
-{
-    margin-bottom: 50px;
-}
-
-.competences__list-competences, .langues__list-langues
-{
-    list-style-type: none;
-    padding: 0px;
-}
-
-.competences__list-competences li, .langues__list-langues li
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.skill
-{
-    font-weight: bold;
-}
-
-.stars
-{
-    color: #17abb3;
-    font-size: 1.3rem;
-}
-
-.langues__list-langues li
-{
-    margin-bottom: 10px;
-}
-
-.langues__level
-{
-    font-size: 16px;
-}
-
-.qualites__list-qualites
-{
-    padding-left: 20px;
-    list-style-type: square;
-    font-size: large;
-}
-
-.qualites__list-qualites li
-{
-    margin-bottom: 5px;
-}
-
-.qualites__list-qualites li::marker
-{
-    color: #17abb3;
-}
-
-.centres-d-interet__list-centres-d-interet
-{
-    padding-left: 20px;
-    list-style-type: square;
-    font-size: large;
-}
-.centres-d-interet__list-centres-d-interet li
-{
-    margin-bottom: 5px;
-}
-.centres-d-interet__list-centres-d-interet li::marker
-{
-    color: #17abb3;
 }
 
 .formation__diplome{
@@ -253,83 +121,4 @@ main
     font-style: italic;
 }
 
-footer
-{
-    display:flex;
-    background-color: #17abb3;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    justify-content: center;
-}
-
-.header
-{
-    padding: 30px;
-}
-.contact
-{
-    justify-self: center;
-    display: flex;
-    width: 340px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-
-.contact__info
-{
-    text-align: start;
-    margin-right: 15px;
-}
-
-.contact__info span
-{
-    margin-bottom: 15px;
-}
-
-.contact__info a
-{
-    text-decoration: none;
-    color: white;
-}
-.contact img
-{
-    margin-right: 8px;
-    height: 1rem;
-}
-
-#name
-{
-    font-size: 3rem;
-    margin-bottom: 5px;
-}
-
-.pied-de-page
-{
-    display: flex;
-    flex-wrap: wrap;
-    width: 250px;
-    justify-content: center;
-    margin-bottom: 5px;
-}
-
-.pied-de-page div
-{
-    margin-right: 16px;
-    margin-left: 16px;
-    margin-bottom: 5px;
-}
-
-#update
-{
-    font-style: italic;
-    margin-bottom: 0px;
-    margin-top: 5px;
-}
-
-.icone-reseaux:hover
-{
-    opacity: 50%;
-}
 
