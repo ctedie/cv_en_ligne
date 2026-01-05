@@ -1,0 +1,124 @@
+@font-face
+{
+    font-family: "lato";
+    src: url(../fonts/Lato-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/Lato-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/Lato-Italic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "raleway", sans-serif;
+    src: url(../fonts/Raleway-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "raleway", sans-serif;
+    src: url(../fonts/Raleway-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "raleway", sans-serif;
+    src: url(../fonts/Raleway-Italic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+h2
+{
+    color: #17abb3;
+    margin-bottom: 10px;
+}
+
+
+body
+{
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+#CV
+{
+    max-width: 1160px;
+    margin: 0px;
+    font-family: "lato", sans-serif;;
+    background-color: white;
+    justify-self: center;
+}
+h1, h2, h3, h4
+{
+    font-family: "raleway", sans-serif;
+}
+
+hr
+{
+    margin-bottom: 20px;
+}
+
+
+.content
+{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+aside
+{
+    flex: 1;
+    background-color: #E3E3E3;
+    text-align: justify;
+    margin: 0;
+    padding: 20px;
+    padding-right: 40px;
+    
+}
+    
+.has-hover:hover
+{
+    background-color: #E3E3E3;
+}
+
+.formation__diplome{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 0px;
+}
+.dates
+{
+    color: #17abb3;
+    font-style: italic;
+}
+
+.nomFormation
+{
+    font-weight: bold;
+    flex: 2;
+}
+.formation__diplome__info
+{
+    font-size: 0.9rem;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+

@@ -1,0 +1,14 @@
+main
+{
+    flex: 2;
+    text-align: justify;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.profil__description
+{
+    margin: 0;
+    text-indent: 2cap;
+}
+
