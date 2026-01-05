@@ -1,3 +1,13 @@
+footer
+{
+    display:flex;
+    background-color: #17abb3;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
 .pied-de-page
 {
     display: flex;
